@@ -1,6 +1,5 @@
 import React from "react";
 import BurgerMenu from "./BurgerMenu";
-// import BurgerMenu from "./BurgerMenu"
 
 function Navbar() {
   return (

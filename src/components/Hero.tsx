@@ -14,9 +14,8 @@ function Hero() {
           <TypeAnimation
             wrapper="span"
             repeat={0}
-            sequence={["Hi, I'm Hannes"]}
-            speed={1}
-            deletionSpeed={20}
+            sequence={[800, "Hi, I'm Hannes"]}
+            speed={10}
           />
           <span>/&gt;</span>
         </h1>
@@ -25,9 +24,8 @@ function Hero() {
           <TypeAnimation
             wrapper="span"
             repeat={0}
-            sequence={["Future Web Developer"]}
-            speed={1}
-            deletionSpeed={20}
+            sequence={[2500, "Future Web Developer"]}
+            speed={10}
           />
           <span>/&gt;</span>
         </p>
@@ -37,10 +35,10 @@ function Hero() {
             wrapper="span"
             repeat={0}
             sequence={[
+              5000,
               "From concept to code, crafting digital experiences that leave a mark. Let's make your website stand out.",
             ]}
-            speed={30}
-            deletionSpeed={20}
+            speed={50}
           />
           <span>/&gt;</span>
         </p>
