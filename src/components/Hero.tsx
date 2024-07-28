@@ -10,7 +10,7 @@ function Hero() {
       style={{ backgroundImage: "url('/img/BG001.png')" }}
     >
       <div className="container mx-auto p-6 md:p-10 text-amber-50">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
           <span>&lt;</span>
           <TypeAnimation
             wrapper="span"
@@ -69,7 +69,7 @@ function Hero() {
             <FaLinkedin size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/in/hannes-langst%C3%A4dtler-281415240/"
+            href="https://discord.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-amber-400 hover:text-amber-600"
