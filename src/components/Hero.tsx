@@ -7,9 +7,8 @@ function Hero() {
     <section
       id="hero"
       className="bg-cover bg-center min-h-screen flex items-center"
-      style={{ backgroundImage: "url('/img/BG001.png')" }}
     >
-      <div className="container mx-auto p-6 md:p-10 text-amber-50">
+      <div className="container mx-auto p-14  md:p-20 text-amber-50">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
           <span>&lt;</span>
           <TypeAnimation
