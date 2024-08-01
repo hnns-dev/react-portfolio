@@ -9,7 +9,7 @@ function Hero() {
       className="bg-cover bg-center min-h-screen flex items-center"
     >
       <div className="container mx-auto p-14  md:p-20 text-amber-50">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+        <h1 className="font-titillium text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
           <span>&lt;</span>
           <TypeAnimation
             wrapper="span"
@@ -19,7 +19,7 @@ function Hero() {
           />
           <span>/&gt;</span>
         </h1>
-        <p className="text-xl md:text-2xl lg:text-3xl mb-6">
+        <p className="font-titillium text-xl md:text-2xl lg:text-3xl mb-6">
           <span>&lt;</span>
           <TypeAnimation
             wrapper="span"
@@ -29,7 +29,7 @@ function Hero() {
           />
           <span>/&gt;</span>
         </p>
-        <p className="text-sm md:text-base lg:text-lg max-w-2xl">
+        <p className="font-titillium text-sm md:text-base lg:text-lg max-w-2xl">
           <span>&lt;</span>
           <TypeAnimation
             wrapper="span"

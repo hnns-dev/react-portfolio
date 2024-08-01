@@ -4,6 +4,9 @@ export default {
   theme: {
     extend: {
       scrollBehavior: ["smooth"],
+      fontFamily: {
+        titillium: ['"Titillium Web"', "sans-serif"],
+      },
     },
   },
   plugins: [],

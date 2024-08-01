@@ -3,7 +3,7 @@ import BurgerMenu from "./BurgerMenu";
 
 function Navbar() {
   return (
-    <nav className="bg-stone-800 py-4 px-6 sticky top-0 z-50">
+    <nav className="font-titillium bg-stone-800 py-4 px-6 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold text-amber-600">
           <span>&lt;</span>hl.dev<span>/&gt;</span>

@@ -5,7 +5,7 @@ function About() {
   return (
     <section id="about" className="py-20">
       <div className="container mx-auto p-4">
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-12 text-amber-50">
+        <h2 className="font-titillium text-4xl md:text-5xl lg:text-6xl font-bold mb-12 text-amber-50">
           <span className="text-amber-600">&lt;</span>
           About me
           <span className="text-amber-600">/&gt;</span>
@@ -67,7 +67,7 @@ function About() {
 
         <AnimatedDiv direction="up">
           <div className="mt-12 bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl p-6 shadow-lg">
-            <h3 className="text-2xl font-bold mb-6 text-amber-50">
+            <h3 className="font-titillium text-2xl font-bold mb-6 text-amber-50">
               Work Experience
             </h3>
             <div className="space-y-6">

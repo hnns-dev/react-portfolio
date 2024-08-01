@@ -41,18 +41,15 @@ function Projects() {
   return (
     <section id="projects" className="py-20">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-12 text-amber-50">
+        <h2 className="font-titillium text-4xl md:text-5xl lg:text-6xl font-bold mb-12 text-amber-50">
           <span className="text-amber-600">&lt;</span>
           Projects
           <span className="text-amber-600">/&gt;</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 overflow-x-auto md:overflow-x-visible">
+        <div className="flex flex-nowrap overflow-x-auto snap-x snap-mandatory sm:ml-6 s md:grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {projectsData.map((project, index) => (
-            <AnimatedDiv
-              key={index}
-              direction={index % 2 === 0 ? "left" : "right"}
-            >
+            <AnimatedDiv key={index} direction={"up"}>
               <ProjectCard {...project} />
             </AnimatedDiv>
           ))}
