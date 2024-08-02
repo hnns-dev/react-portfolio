@@ -4,6 +4,14 @@ import { AnimatedDiv } from "./AnimatedDiv";
 
 const projectsData = [
   {
+    title: "Cinema App",
+    description:
+      "Fully functional App including Ticket booking, Movie Bookmarks, Cast & Crew info, Profil costomization. Group Project done at Dev Haus Leipzig",
+    previewLink: "#",
+    codeLink: "https://github.com/devhausleipzigacademy/camp-12-midterm-next",
+    imageUrl: "/img/project003.png",
+  },
+  {
     title: "Task Manager App",
     description:
       "A task management tool built with TypeScript, React, and Tailwind CSS. Key features include: - Add, Delete, Rename Tasks - Mark as Completed - Filter Tasks",
@@ -27,14 +35,6 @@ const projectsData = [
     codeLink: "https://github.com/HaillSeitan/task-manager",
     imageUrl: "/img/project001.png",
   },
-  {
-    title: "Task Manager App",
-    description:
-      "Task App created with TypeScript, React an Tailwind CSS. Functionalities: adding, deleting and renaming tasks, mark an completed, filter over them. WIP",
-    previewLink: "https://project1-preview.com",
-    codeLink: "https://github.com/HaillSeitan/task-manager",
-    imageUrl: "/img/project001.png",
-  },
 ];
 
 function Projects() {
@@ -47,7 +47,7 @@ function Projects() {
           <span className="text-amber-600">/&gt;</span>
         </h2>
 
-        <div className="flex flex-nowrap overflow-x-auto snap-x snap-mandatory sm:ml-6 s md:grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="flex flex-nowrap overflow-x-auto snap-x snap-mandatory sm:ml-6 s md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
           {projectsData.map((project, index) => (
             <AnimatedDiv key={index} direction={"up"}>
               <ProjectCard {...project} />

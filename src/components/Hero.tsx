@@ -52,14 +52,6 @@ function Hero() {
         </div>
         <div className="mt-20 flex justify-end space-x-4">
           <a
-            href="https://github.com/HaillSeitan"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-amber-400 hover:text-amber-600"
-          >
-            <FaGithub size={24} />
-          </a>
-          <a
             href="https://www.linkedin.com/in/hannes-langst%C3%A4dtler-281415240/"
             target="_blank"
             rel="noopener noreferrer"
@@ -67,6 +59,15 @@ function Hero() {
           >
             <FaLinkedin size={24} />
           </a>
+          <a
+            href="https://github.com/HaillSeitan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-amber-400 hover:text-amber-600"
+          >
+            <FaGithub size={24} />
+          </a>
+
           <a
             href="https://discord.com/"
             target="_blank"

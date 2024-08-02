@@ -16,7 +16,7 @@ function ProjectCard({
   imageUrl,
 }: ProjectCardProps) {
   return (
-    <div className="card bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl overflow-hidden shadow-lg h-full flex flex-col">
+    <div className="card bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl overflow-hidden shadow-lg h-full flex flex-col hover:scale-110 transition">
       <div
         className="h-48 bg-cover bg-center"
         style={{ backgroundImage: `url(${imageUrl})` }}
