@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { AnimatedDiv } from "./AnimatedDiv";
+import { VscSnake } from "react-icons/vsc";
 
 const projectsData = [
   {
@@ -47,13 +48,30 @@ function Projects() {
           <span className="text-amber-600">/&gt;</span>
         </h2>
 
-        <div className="flex flex-nowrap overflow-x-auto snap-x snap-mandatory sm:ml-6 s md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+        <div className="flex flex-nowrap overflow-x-auto snap-x snap-mandatory md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
           {projectsData.map((project, index) => (
             <AnimatedDiv key={index} direction={"up"}>
               <ProjectCard {...project} />
             </AnimatedDiv>
           ))}
         </div>
+        <AnimatedDiv direction="right">
+          <div className="flex justify-center items-center bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl overflow-hidden shadow-lg mt-4 p-4 gap-4">
+            <p className="text-amber-200">
+              From serious projects to serious fun – Click here and take a quick
+              gaming break!
+            </p>
+            <div className=" text-amber-200 text-3xl bg-amber-600 hover:scale-110 transition p-2 rounded-full shadow-lg">
+              <a
+                href="https://haillseitan.github.io/snake_game/"
+                target="_blank"
+              >
+                {" "}
+                <VscSnake />{" "}
+              </a>
+            </div>
+          </div>
+        </AnimatedDiv>
       </div>
     </section>
   );

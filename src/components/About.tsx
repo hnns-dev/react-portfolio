@@ -54,9 +54,8 @@ function About() {
               <p className="text-lg text-amber-50 mx-3">
                 As a budding web developer, I am enthusiastic about the
                 opportunity to create digital experiences that excite and
-                inspire people. and inspire people. My passion for technology
-                and design design drives me to constantly learn new things and
-                improve my improve my skills.
+                inspire people. My passion for technology and design drives me
+                to constantly learn new things and improve my skills.
               </p>
               <span className="text-amber-600 font-bold">&lt;p/&gt;</span>
             </div>
