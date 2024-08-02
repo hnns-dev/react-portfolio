@@ -15,7 +15,7 @@ function Hero() {
             wrapper="span"
             repeat={0}
             sequence={[800, "Hi, I'm Hannes"]}
-            speed={10}
+            speed={20}
           />
           <span>/&gt;</span>
         </h1>
@@ -24,8 +24,8 @@ function Hero() {
           <TypeAnimation
             wrapper="span"
             repeat={0}
-            sequence={[2500, "Future Web Developer"]}
-            speed={10}
+            sequence={[2200, "Future Web Developer"]}
+            speed={20}
           />
           <span>/&gt;</span>
         </p>
@@ -35,10 +35,10 @@ function Hero() {
             wrapper="span"
             repeat={0}
             sequence={[
-              5000,
+              4000,
               "From concept to code, crafting digital experiences that leave a mark. Let's make your website stand out.",
             ]}
-            speed={50}
+            speed={70}
           />
           <span>/&gt;</span>
         </p>
@@ -69,7 +69,7 @@ function Hero() {
           </a>
 
           <a
-            href="https://discord.com/"
+            href="https://discord.gg/qZG8tUEV"
             target="_blank"
             rel="noopener noreferrer"
             className="text-amber-400 hover:text-amber-600"

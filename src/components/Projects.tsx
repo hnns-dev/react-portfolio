@@ -48,7 +48,7 @@ function Projects() {
           <span className="text-amber-600">/&gt;</span>
         </h2>
 
-        <div className="flex flex-nowrap overflow-x-auto snap-x snap-mandatory md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+        <div className="flex flex-nowrap overflow-x-auto snap-x snap-mandatory md:grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {projectsData.map((project, index) => (
             <AnimatedDiv key={index} direction={"up"}>
               <ProjectCard {...project} />
@@ -56,8 +56,8 @@ function Projects() {
           ))}
         </div>
         <AnimatedDiv direction="right">
-          <div className="flex justify-center items-center bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl overflow-hidden shadow-lg mt-4 p-4 gap-4">
-            <p className="text-amber-200">
+          <div className="flex justify-center items-center bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl overflow-hidden shadow-lg mt-12 px-6 py-4 gap-4 lg:justify-evenly">
+            <p className="text-amber-200 md:text-lg lg:text-2xl">
               From serious projects to serious fun – Click here and take a quick
               gaming break!
             </p>
