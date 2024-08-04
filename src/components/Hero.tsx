@@ -6,10 +6,10 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="bg-cover bg-center min-h-screen flex items-center"
+      className="bg-cover bg-center min-h-screen flex items-start mt-10"
     >
       <div className="container mx-auto p-14  md:p-20 text-amber-50">
-        <h1 className="font-titillium text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+        <h1 className="font-titillium text-3xl md:text-5xl lg:text-7xl font-bold mb-6">
           <span>&lt;</span>
           <TypeAnimation
             wrapper="span"

@@ -16,7 +16,7 @@ const projectsData = [
     title: "Task Manager App",
     description:
       "A task management tool built with TypeScript, React, and Tailwind CSS. Key features include: - Add, Delete, Rename Tasks - Mark as Completed - Filter Tasks",
-    previewLink: "https://project1-preview.com",
+    previewLink: "https://task-manager-puce-theta.vercel.app/",
     codeLink: "https://github.com/HaillSeitan/task-manager",
     imageUrl: "/img/project001.png",
   },
