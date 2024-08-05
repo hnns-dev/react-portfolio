@@ -13,7 +13,6 @@ function About() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <AnimatedDiv direction="left">
-            {/* Short Info */}
             <div className="bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl p-6 shadow-lg flex gap-6 items-center">
               <div className="w-24 h-24 sm:w-32 sm:h-32 lg:w-48 lg:h-48 overflow-hidden rounded-full flex-shrink-0">
                 <img
@@ -46,8 +45,6 @@ function About() {
               </div>
             </div>
           </AnimatedDiv>
-
-          {/* Motivation */}
           <AnimatedDiv direction="right">
             <div className="bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl p-6 shadow-lg flex flex-col">
               <span className="text-amber-600 font-bold ">&lt;p&gt;</span>
@@ -61,13 +58,10 @@ function About() {
             </div>
           </AnimatedDiv>
         </div>
-
-        {/* Work Experience */}
-
         <AnimatedDiv direction="up">
           <div className="mt-12 bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl p-6 shadow-lg">
             <h3 className="font-titillium text-2xl font-bold mb-6 text-amber-50">
-              Work Experience
+              Experience
             </h3>
             <div className="space-y-6">
               {workExperiences.map((exp, index) => (

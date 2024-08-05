@@ -6,10 +6,10 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="bg-cover bg-center min-h-screen flex items-start mt-10"
+      className="container mx-auto p-14 md:p-20 text-amber-50 bg-cover bg-center min-h-svh flex flex-col justify-between mt-10"
     >
-      <div className="container mx-auto p-14  md:p-20 text-amber-50">
-        <h1 className="font-titillium text-3xl md:text-5xl lg:text-7xl font-bold mb-6">
+      <div className="flex flex-col gap-10">
+        <h1 className="font-titillium text-3xl md:text-5xl lg:text-7xl font-bold">
           <span>&lt;</span>
           <TypeAnimation
             wrapper="span"
@@ -19,7 +19,7 @@ function Hero() {
           />
           <span>/&gt;</span>
         </h1>
-        <p className="font-titillium text-xl md:text-2xl lg:text-3xl mb-6">
+        <p className="font-titillium text-xl md:text-2xl lg:text-3xl">
           <span>&lt;</span>
           <TypeAnimation
             wrapper="span"
@@ -42,7 +42,9 @@ function Hero() {
           />
           <span>/&gt;</span>
         </p>
-        <div className="mt-20">
+      </div>
+      <div className="flex flex-col gap-12 mb-32 md:mb-20 items-center md:items-end">
+        <div className="md:self-start">
           <a
             href="#projects"
             className="bg-amber-600 text-white px-6 py-3 rounded-lg hover:bg-amber-700 transition duration-300"
@@ -50,7 +52,7 @@ function Hero() {
             View My Projects
           </a>
         </div>
-        <div className="mt-20 flex justify-end space-x-4">
+        <div className="flex md:justify-end space-x-4">
           <a
             href="https://www.linkedin.com/in/hannes-langst%C3%A4dtler-281415240/"
             target="_blank"
@@ -78,19 +80,6 @@ function Hero() {
           </a>
         </div>
       </div>
-      {/* <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <svg
-          className="w-6 h-6 text-amber-400"
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-        </svg>
-      </div> */}
     </section>
   );
 }
