@@ -11,14 +11,11 @@ import ProgressBar from "./components/ProgressBar";
 function App() {
   return (
     <div
-      className="min-h-screen flex flex-col bg-cover bg-center bg-fixed scroll-smooth"
+      className="min-h-screen flex flex-col bg-cover bg-center bg-fixed"
       style={{ backgroundImage: "url('/img/BG001.png')" }}
     >
       <div>
         <Navbar />
-        {/* <div>
-          <ProgressBar />
-        </div> */}
         <Hero />
         <About />
         <Skills />
