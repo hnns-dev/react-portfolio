@@ -24,7 +24,7 @@ const projectsData = [
     title: "Register Form",
     description:
       "A simple register form built with TypeScript, React an Tailwind CSS. Using Zod for input vadlidation + Error meesages showing incrroect input",
-    previewLink: "https://project1-preview.com",
+    previewLink: "https://register-form-lyart.vercel.app/",
     codeLink: "https://github.com/HaillSeitan/register-form",
     imageUrl: "/img/project002.png",
   },
