@@ -25,23 +25,9 @@ function Contact() {
             </p>
           </AnimatedDiv>
 
-          {/* <AnimatedDiv direction="up">
-            <div className="mb-8">
-              <h3 className="text-2xl font-bold text-amber-600 mb-4">
-                Why reach out?
-              </h3>
-              <ul className="text-amber-50 text-lg">
-                <li>🚀 Collaborate on exciting projects</li>
-                <li>💡 Discuss innovative web solutions</li>
-                <li>🌐 Explore potential opportunities</li>
-                <li>🤝 Network with fellow developers</li>
-              </ul>
-            </div>
-          </AnimatedDiv> */}
-
           <AnimatedDiv direction="up">
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:hannes-ffl@gmx.de"
               className="inline-block bg-amber-600 text-stone-800 font-bold py-3 px-6 rounded-full text-lg transition-all duration-300 hover:bg-amber-500 hover:shadow-lg"
             >
               Send me a message

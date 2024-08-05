@@ -11,50 +11,52 @@ function About() {
           <span className="text-amber-600">/&gt;</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:grid-flow-col gap-8">
           <AnimatedDiv direction="left">
-            <div className="bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl p-6 shadow-lg flex gap-6 items-center">
-              <div className="w-24 h-24 sm:w-32 sm:h-32 lg:w-48 lg:h-48 overflow-hidden rounded-full flex-shrink-0">
-                <img
-                  src="/img/profil.JPG"
-                  alt="Your Name"
-                  className="w-full h-full object-cover"
-                  style={{ filter: "grayscale(100%)" }}
-                />
-              </div>
-              <div className="text-amber-50">
-                <span className="text-amber-600 font-bold -mx-3">
-                  &lt;ul&gt;
-                </span>
-                <p>
-                  <strong>Name:</strong> Hannes Langstädtler
-                </p>
-                <p>
-                  <strong>Age:</strong> 33
-                </p>
-                <p>
-                  <strong>Residence:</strong> Leipzig, Germany
-                </p>
-                <p>
-                  <strong>Languages:</strong> German (Native language), English
-                  (B2 level)
-                </p>
-                <span className="text-amber-600 font-bold -mx-3">
-                  &lt;ul/&gt;
-                </span>
+            <div className="bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl p-6 shadow-lg flex flex-col h-full">
+              <div className="flex gap-6 items-center">
+                <div className="w-24 h-24 sm:w-32 sm:h-32 lg:w-48 lg:h-48 overflow-hidden rounded-full flex-shrink-0">
+                  <img
+                    src="/img/profil.JPG"
+                    alt="Your Name"
+                    className="w-full h-full object-cover"
+                    style={{ filter: "grayscale(100%)" }}
+                  />
+                </div>
+                <div className="text-amber-50">
+                  <span className="text-amber-600 font-bold -mx-3">
+                    &lt;ul&gt;
+                  </span>
+                  <p>
+                    <strong>Name:</strong> Hannes Langstädtler
+                  </p>
+                  <p>
+                    <strong>Age:</strong> 33
+                  </p>
+                  <p>
+                    <strong>Residence:</strong> Leipzig, Germany
+                  </p>
+                  <p>
+                    <strong>Languages:</strong> German (Native language),
+                    English (B2 level)
+                  </p>
+                  <span className="text-amber-600 font-bold -mx-3">
+                    &lt;/ul&gt;
+                  </span>
+                </div>
               </div>
             </div>
           </AnimatedDiv>
           <AnimatedDiv direction="right">
-            <div className="bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl p-6 shadow-lg flex flex-col">
-              <span className="text-amber-600 font-bold ">&lt;p&gt;</span>
-              <p className="text-lg text-amber-50 mx-3">
+            <div className="bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl p-6 shadow-lg flex flex-col h-full">
+              <span className="text-amber-600 font-bold">&lt;p&gt;</span>
+              <p className="text-amber-50 mx-3 flex-grow">
                 As a budding web developer, I am enthusiastic about the
                 opportunity to create digital experiences that excite and
                 inspire people. My passion for technology and design drives me
                 to constantly learn new things and improve my skills.
               </p>
-              <span className="text-amber-600 font-bold">&lt;p/&gt;</span>
+              <span className="text-amber-600 font-bold">&lt;/p&gt;</span>
             </div>
           </AnimatedDiv>
         </div>
