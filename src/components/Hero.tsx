@@ -24,7 +24,7 @@ function Hero() {
           <TypeAnimation
             wrapper="span"
             repeat={0}
-            sequence={[2200, "Future Web Developer"]}
+            sequence={[2200, "Junior Web Developer"]}
             speed={20}
           />
           <span>/&gt;</span>

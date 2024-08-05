@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 function BurgerMenu() {
   return (
-    <div className="max-sm:block max-2xl:hidden stroke-amber-400 hover:text-amber-600 transform hover:shadow-sm">
+    <div className="block md:hidden  stroke-amber-400 hover:text-amber-600 transform hover:shadow-sm">
       <Menu>
         {({ open }) => (
           <>
@@ -16,7 +16,7 @@ function BurgerMenu() {
               )}
             </MenuButton>
             <MenuItems
-              className="bg-stone-800/90 text-amber-100 w-52 h-screen mt-4"
+              className="bg-stone-700 text-amber-100 w-52 h-screen mt-4"
               anchor="bottom"
             >
               <MenuItem>

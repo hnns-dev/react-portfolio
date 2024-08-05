@@ -8,7 +8,7 @@ function Navbar() {
         <h1 className="text-2xl font-bold text-amber-600">
           <span>&lt;</span>hl.dev<span>/&gt;</span>
         </h1>
-        <ul className="flex gap-4 max-sm:hidden">
+        <ul className="hidden md:flex gap-4">
           <li>
             <a
               href="#hero"
