@@ -43,7 +43,7 @@ function Hero() {
         </div>
         <div className="flex-shrink-0 w-full max-w-[240px] sm:max-w-[280px] md:max-w-[320px] lg:max-w-[300px] xl:max-w-[440px]">
           <img
-            src="/img/hero-programming.svg"
+            src="/img/hero-programming2.svg"
             alt="Programming illustration"
             className="w-full h-auto"
           />

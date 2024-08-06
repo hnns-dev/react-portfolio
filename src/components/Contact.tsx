@@ -18,10 +18,10 @@ function Contact() {
         <div className="max-w-2xl mx-auto text-center">
           <AnimatedDiv direction="up">
             <p className="text-xl text-amber-50 mb-8">
-              I'm always excited to collaborate on new projects, discuss web
-              development, or just chat about the latest tech trends. Whether
-              you have a question, a proposal, or just want to say hi, I'd love
-              to hear from you!
+              I’m enthusiastic about new projects, web development discussions,
+              and tech talk. Whether you’re looking to hire, seeking
+              collaboration, or just wanting to chat, I’d be thrilled to connect
+              with you!
             </p>
           </AnimatedDiv>
 
@@ -36,7 +36,7 @@ function Contact() {
 
           <AnimatedDiv direction="up">
             <div className="mt-12 text-amber-50">
-              <p className="mb-2">Or connect with me on here:</p>
+              <p className="mb-2">Or contact me here:</p>
               <div className="flex justify-center space-x-4">
                 <a
                   href="https://www.linkedin.com/in/hannes-langst%C3%A4dtler-281415240/"

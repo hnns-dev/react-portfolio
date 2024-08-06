@@ -37,8 +37,8 @@ function About() {
                     <strong>Residence:</strong> Leipzig, Germany
                   </p>
                   <p>
-                    <strong>Languages:</strong> German (Native language),
-                    English (B2 level)
+                    <strong>Languages:</strong> German (Native speaker), English
+                    (B2 level)
                   </p>
                   <span className="text-amber-600 font-bold -mx-3">
                     &lt;/ul&gt;
@@ -51,10 +51,13 @@ function About() {
             <div className="bg-stone-400 bg-opacity-20 backdrop-blur-lg rounded-xl p-6 shadow-lg flex flex-col h-full">
               <span className="text-amber-600 font-bold">&lt;p&gt;</span>
               <p className="text-amber-50 mx-3 flex-grow">
-                As a budding web developer, I am enthusiastic about the
-                opportunity to create digital experiences that excite and
-                inspire people. My passion for technology and design drives me
-                to constantly learn new things and improve my skills.
+                As an emerging web developer, I am enthusiastic about creating
+                digital experiences that excite and inspire people. My extensive
+                background in design and layout, combined with my recent
+                training in frontend technologies, drives me to constantly learn
+                and improve. I am passionate about using technology to bring
+                innovative ideas to life and committed to developing
+                user-friendly, visually appealing web applications.
               </p>
               <span className="text-amber-600 font-bold">&lt;/p&gt;</span>
             </div>
@@ -91,22 +94,21 @@ function About() {
 
 const workExperiences = [
   {
-    title: "Web Development Bootcamp",
-    date: "April 2024 - Now",
-    description:
-      "Currently studying Fontend Web Development at Dev Haus Leipzig",
+    title: "Web Development Bootcamp - Dev Haus Leipzig",
+    date: "March 2024 - Now",
+    description: "Currently studying Fontend Web Development",
   },
   {
-    title: "Advertising Technician",
+    title: "Advertising Technician - Urban & Urban (Leipzig)",
     date: "July 2019 - Feburary 2024",
     description:
-      "Urban & Urban (Leipzig): Operating large format printers and CNC milling machines, Preparing and processing print data",
+      "Operating large format printers and CNC milling machines, Preparing and processing print data",
   },
   {
-    title: "Advertising Technician",
-    date: "August 2011 - June 2019",
+    title: "Advertising Technician - Graßhoff GmbH (Zerbst/Anhalt)",
+    date: "August 2008 - June 2019",
     description:
-      "Graßhoff GmbH (Zerbst/Anhalt): Creating layouts and designs, Operating large format printers, Vehicle lettering, creating various advertising materials",
+      "Creating layouts and designs, Operating large format printers, Vehicle lettering, creating various advertising materials",
   },
 ];
 

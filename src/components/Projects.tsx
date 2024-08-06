@@ -29,12 +29,12 @@ const projectsData = [
     imageUrl: "/img/project002.png",
   },
   {
-    title: "Task Manager App",
+    title: "Hangman Game",
     description:
-      "Task App created with TypeScript, React an Tailwind CSS. Functionalities: adding, deleting and renaming tasks, mark an completed, filter over them. WIP",
-    previewLink: "https://project1-preview.com",
-    codeLink: "https://github.com/HaillSeitan/task-manager",
-    imageUrl: "/img/project001.png",
+      "Simple word guessing game built with HTML, CSS and TypeScript",
+    previewLink: "https://hangman-game-three-gold.vercel.app/",
+    codeLink: "https://github.com/HaillSeitan/hangman_game",
+    imageUrl: "/img/project004.png",
   },
 ];
 
