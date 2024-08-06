@@ -18,6 +18,8 @@ import {
   SiPrisma,
   SiVisualstudiocode,
   SiGit,
+  SiJson,
+  SiGnubash,
 } from "react-icons/si";
 
 const skillsData = [
@@ -38,6 +40,7 @@ const skillsData = [
     skills: [
       { logo: <FaNodeJs />, title: "Node.js" },
       { logo: <SiPrisma />, title: "Prisma" },
+      { logo: <SiJson />, title: "Json" },
       { logo: <FaDocker />, title: "Docker" },
     ],
   },
@@ -45,6 +48,7 @@ const skillsData = [
     category: "Tools",
     skills: [
       { logo: <SiVisualstudiocode />, title: "VS Code" },
+      { logo: <SiGnubash />, title: "GNU Bash" },
       { logo: <SiGit />, title: "Git" },
       { logo: <FaGithub />, title: "GitHub" },
       { logo: <FaFigma />, title: "Figma" },

@@ -8,40 +8,46 @@ function Hero() {
       id="hero"
       className="container mx-auto p-14 md:p-20 text-amber-50 bg-cover bg-center min-h-svh flex flex-col justify-between mt-10"
     >
-      <div className="flex flex-col gap-10">
-        <h1 className="font-titillium text-3xl md:text-5xl lg:text-7xl font-bold">
-          <span>&lt;</span>
-          <TypeAnimation
-            wrapper="span"
-            repeat={0}
-            sequence={[800, "Hi, I'm Hannes"]}
-            speed={20}
+      <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-6 lg:gap-10">
+        <div className="flex flex-col self-start gap-6 lg:gap-10 flex-grow">
+          <h1 className="font-titillium text-3xl md:text-5xl lg:text-7xl font-bold">
+            <span>&lt;</span>
+            <TypeAnimation
+              wrapper="span"
+              repeat={0}
+              sequence={[800, "Hi, I'm Hannes"]}
+              speed={20}
+            />
+            <span>/&gt;</span>
+          </h1>
+          <p className="font-titillium text-xl md:text-2xl lg:text-3xl">
+            <span>&lt;</span>
+            <TypeAnimation
+              wrapper="span"
+              repeat={0}
+              sequence={[2200, "Junior Web Developer"]}
+              speed={20}
+            />
+            <span>/&gt;</span>
+          </p>
+          <p className="font-titillium text-sm md:text-base lg:text-lg max-w-2xl">
+            <span>&lt;</span>
+            <TypeAnimation
+              wrapper="span"
+              repeat={0}
+              sequence={[4000, "Focused on Innovative Frontend Solutions"]}
+              speed={70}
+            />
+            <span>/&gt;</span>
+          </p>
+        </div>
+        <div className="flex-shrink-0 w-full max-w-[240px] sm:max-w-[280px] md:max-w-[320px] lg:max-w-[300px] xl:max-w-[440px]">
+          <img
+            src="/img/hero-programming.svg"
+            alt="Programming illustration"
+            className="w-full h-auto"
           />
-          <span>/&gt;</span>
-        </h1>
-        <p className="font-titillium text-xl md:text-2xl lg:text-3xl">
-          <span>&lt;</span>
-          <TypeAnimation
-            wrapper="span"
-            repeat={0}
-            sequence={[2200, "Junior Web Developer"]}
-            speed={20}
-          />
-          <span>/&gt;</span>
-        </p>
-        <p className="font-titillium text-sm md:text-base lg:text-lg max-w-2xl">
-          <span>&lt;</span>
-          <TypeAnimation
-            wrapper="span"
-            repeat={0}
-            sequence={[
-              4000,
-              "From concept to code, crafting digital experiences that leave a mark. Let's make your website stand out.",
-            ]}
-            speed={70}
-          />
-          <span>/&gt;</span>
-        </p>
+        </div>
       </div>
       <div className="flex flex-col gap-12 mb-32 md:mb-20 items-center md:items-end">
         <div className="md:self-start">
