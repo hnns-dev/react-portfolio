@@ -17,7 +17,7 @@ const projectsData = [
     description:
       "A task management tool built with TypeScript, React, and Tailwind CSS. Key features include: - Add, Delete, Rename Tasks - Mark as Completed - Filter Tasks",
     previewLink: "https://task-manager-puce-theta.vercel.app/",
-    codeLink: "https://github.com/HaillSeitan/task-manager",
+    codeLink: "https://github.com/hnns-dev/task-manager",
     imageUrl: "/img/project001.png",
   },
   {
@@ -25,7 +25,7 @@ const projectsData = [
     description:
       "A simple register form built with TypeScript, React an Tailwind CSS. Using Zod for input vadlidation + Error meesages showing incrroect input",
     previewLink: "https://register-form-lyart.vercel.app/",
-    codeLink: "https://github.com/HaillSeitan/register-form",
+    codeLink: "https://github.com/hnns-dev/register-form",
     imageUrl: "/img/project002.png",
   },
   {
@@ -33,7 +33,7 @@ const projectsData = [
     description:
       "Simple word guessing game built with HTML, CSS and TypeScript",
     previewLink: "https://hangman-game-three-gold.vercel.app/",
-    codeLink: "https://github.com/HaillSeitan/hangman_game",
+    codeLink: "https://github.com/hnns-dev/hangman_game",
     imageUrl: "/img/project004.png",
   },
 ];
@@ -62,10 +62,7 @@ function Projects() {
               gaming break!
             </p>
             <div className=" text-amber-200 text-3xl bg-amber-600 hover:scale-110 transition p-2 rounded-full shadow-lg">
-              <a
-                href="https://haillseitan.github.io/snake_game/"
-                target="_blank"
-              >
+              <a href="https://hnns-dev.github.io/snake_game/" target="_blank">
                 {" "}
                 <VscSnake />{" "}
               </a>

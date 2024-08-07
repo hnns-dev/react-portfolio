@@ -68,7 +68,7 @@ function Hero() {
             <FaLinkedin size={24} />
           </a>
           <a
-            href="https://github.com/HaillSeitan"
+            href="https://github.com/hnns-dev"
             target="_blank"
             rel="noopener noreferrer"
             className="text-amber-400 hover:text-amber-600"
@@ -77,7 +77,7 @@ function Hero() {
           </a>
 
           <a
-            href="https://discord.gg/qZG8tUEV"
+            href="https://discord.gg/G8XYhX6m"
             target="_blank"
             rel="noopener noreferrer"
             className="text-amber-400 hover:text-amber-600"
