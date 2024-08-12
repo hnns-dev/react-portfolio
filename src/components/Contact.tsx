@@ -27,7 +27,7 @@ function Contact() {
 
           <AnimatedDiv direction="up">
             <a
-              href="mailto:hannes-ffl@gmx.de"
+              href="mailto:h-langstaedtler@web.de"
               className="inline-block bg-amber-600 text-stone-800 font-bold py-3 px-6 rounded-full text-lg transition-all duration-300 hover:bg-amber-500 hover:shadow-lg"
             >
               Send me a message
