@@ -50,9 +50,9 @@ function Projects() {
 
         <div className="flex flex-nowrap overflow-x-auto snap-x snap-mandatory md:grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {projectsData.map((project, index) => (
-            <AnimatedDiv key={index} direction={"up"}>
+            <div>
               <ProjectCard {...project} />
-            </AnimatedDiv>
+            </div>
           ))}
         </div>
         <AnimatedDiv direction="right">

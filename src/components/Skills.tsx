@@ -20,6 +20,7 @@ import {
   SiGit,
   SiJson,
   SiGnubash,
+  SiPostgresql,
 } from "react-icons/si";
 
 const skillsData = [
@@ -41,6 +42,7 @@ const skillsData = [
       { logo: <FaNodeJs />, title: "Node.js" },
       { logo: <SiPrisma />, title: "Prisma" },
       { logo: <SiJson />, title: "Json" },
+      { logo: <SiPostgresql />, title: "PostgreSQL" },
       { logo: <FaDocker />, title: "Docker" },
     ],
   },
