@@ -1,12 +1,12 @@
 import React from "react";
 
-interface ProjectCardProps {
+type ProjectCardProps = {
   title: string;
   description: string;
   previewLink: string;
   codeLink: string;
   imageUrl: string;
-}
+};
 
 function ProjectCard({
   title,
