@@ -5,6 +5,14 @@ import { VscSnake } from "react-icons/vsc";
 
 const projectsData = [
   {
+    title: "Bounce Web App",
+    description:
+      "Map based Web app for scheduduling sports related activities. includes creating vanues on a map and an planing meetings. Add friends via QR Code. Created for mobile view. WIP",
+    previewLink: "https://bounce-meet.vercel.app/",
+    codeLink: "https://github.com/devhausleipzigacademy/camp12-final",
+    imageUrl: "/img/project005.png",
+  },
+  {
     title: "Cinema App",
     description:
       "Fully functional App including Ticket booking, Movie Bookmarks, Cast & Crew info, Profil costomization. Group Project done at Dev Haus Leipzig. Use ",
@@ -27,14 +35,6 @@ const projectsData = [
     previewLink: "https://register-form-lyart.vercel.app/",
     codeLink: "https://github.com/hnns-dev/register-form",
     imageUrl: "/img/project002.png",
-  },
-  {
-    title: "Hangman Game",
-    description:
-      "Simple word guessing game built with HTML, CSS and TypeScript",
-    previewLink: "https://hangman-game-three-gold.vercel.app/",
-    codeLink: "https://github.com/hnns-dev/hangman_game",
-    imageUrl: "/img/project004.png",
   },
 ];
 
