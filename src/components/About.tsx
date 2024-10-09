@@ -95,8 +95,8 @@ function About() {
 const workExperiences = [
   {
     title: "Web Development Bootcamp - Dev Haus Leipzig",
-    date: "March 2024 - Now",
-    description: "Currently studying Fontend Web Development",
+    date: "March 2024 - September 2024",
+    description: "Fontend Web Development Camp",
   },
   {
     title: "Advertising Technician - Urban & Urban (Leipzig)",
