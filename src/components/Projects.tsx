@@ -15,7 +15,7 @@ const projectsData = [
   {
     title: "Cinema App",
     description:
-      "Fully functional App including Ticket booking, Movie Bookmarks, Cast & Crew info, Profil costomization. Group Project done at Dev Haus Leipzig. Use ",
+      "Fully functional App including Ticket booking, Movie Bookmarks, Cast & Crew info, Profil costomization. Group Project done at Dev Haus Leipzig.",
     previewLink: "https://camp12-midterm.vercel.app",
     codeLink: "https://github.com/devhausleipzigacademy/camp-12-midterm-next",
     imageUrl: "/img/project003.png",
