@@ -6,15 +6,13 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import ProgressBar from "./components/ProgressBar";
+import Background from "./components/Background";
 
 function App() {
   return (
-    <div
-      className="min-h-screen flex flex-col bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: "url('/img/BG001.png')" }}
-    >
-      <div>
+    <main className="min-h-screen relative">
+      <Background />
+      <div className="relative">
         <Navbar />
         <Hero />
         <About />
@@ -23,7 +21,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
-    </div>
+    </main>
   );
 }
 

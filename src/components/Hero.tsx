@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="container mx-auto p-14 md:p-20 text-amber-50 bg-cover bg-center min-h-svh flex flex-col justify-between mt-10"
+      className="container mx-auto p-14 md:p-20 text-amber-50 bg-cover bg-center min-h-svh flex flex-col justify-between mt-10 scroll-mt-20"
     >
       <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-6 lg:gap-10">
         <div className="flex flex-col self-start gap-6 lg:gap-10 flex-grow">
