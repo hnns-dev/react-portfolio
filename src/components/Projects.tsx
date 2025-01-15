@@ -7,7 +7,7 @@ const projectsData = [
   {
     title: "Bounce Web App",
     description:
-      "Map based Web app for scheduduling sports related activities. includes creating vanues on a map and an planing meetings. Add friends via QR Code. Created for mobile view. WIP",
+      "Map-based Web App for Scheduling Sports-Related Activities. Includes creating venues on a map and planning meetings. Add friends via QR code. Created for mobile view. WIP",
     previewLink: "https://bounce-meet.vercel.app/",
     codeLink: "https://github.com/devhausleipzigacademy/camp12-final",
     imageUrl: "/img/project005.png",
@@ -15,7 +15,7 @@ const projectsData = [
   {
     title: "Cinema App",
     description:
-      "Fully functional App including Ticket booking, Movie Bookmarks, Cast & Crew info, Profil costomization. Group Project done at Dev Haus Leipzig.Y",
+      "Includes ticket booking, movie bookmarks, cast & crew info, and profile customization. A group project completed at Dev Haus Leipzig.",
     previewLink: "https://camp12-midterm.vercel.app",
     codeLink: "https://github.com/devhausleipzigacademy/camp-12-midterm-next",
     imageUrl: "/img/project003.png",
@@ -23,7 +23,7 @@ const projectsData = [
   {
     title: "Task Manager App",
     description:
-      "A task management tool built with TypeScript, React, and Tailwind CSS. Key features include: - Add, Delete, Rename Tasks - Mark as Completed - Filter Tasks",
+      "A task management tool built with TypeScript, React, and Tailwind CSS. Key features include the ability to add, delete, and rename tasks, mark tasks as completed, and filter tasks.",
     previewLink: "https://task-manager-puce-theta.vercel.app/",
     codeLink: "https://github.com/hnns-dev/task-manager",
     imageUrl: "/img/project001.png",
@@ -31,7 +31,7 @@ const projectsData = [
   {
     title: "Register Form",
     description:
-      "A simple register form built with TypeScript, React an Tailwind CSS. Using Zod for input vadlidation + Error meesages showing incrroect input",
+      "A Simple Register Form built with TypeScript, React, and Tailwind CSS. Utilizes Zod for input validation, with error messages displayed for incorrect inputs.",
     previewLink: "https://register-form-lyart.vercel.app/",
     codeLink: "https://github.com/hnns-dev/register-form",
     imageUrl: "/img/project002.png",
